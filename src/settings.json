@@ -1,0 +1,47 @@
+{
+  "theme": "light",
+  "themeColors": {
+    "menuBar": {
+      "menuBar": "#596477",
+      "menuBarFont": "white",
+      "menuBarFontSize": "12",
+      "menuBarItemHover": "grey",
+      "subMenu": "",
+      "subMenuFont": "",
+      "subMenuItemHover": "",
+      "menuBarButton": "",
+      "menuBarButtonHover": "",
+      "menuBarButtonClicked": ""
+    },
+    "sideBar": "#4f596a",
+    "sidePanel": {
+      "sidePanel": "#21252b",
+      "sidePanelFont": "#D3D3D3",
+      "sidePanelFontSize": "12",
+      "sidePanelItemHover": "black"
+    },
+    "topHSplit": "grey",
+    "editorTabs": {
+      "editorTabs": "",
+      "tabFont": "12",
+      "tabFontSize": "",
+      "tabCloseBut": "./src/icons/closewhite.svg",
+      "tabCloseButHover": "",
+      "tabSelected": "#2f343e",
+      "tabNotSelected": "",
+      "tabNotSelectedHover": ""
+    },
+    "editor": {
+      "editor": "",
+      "editorFont": "",
+      "editorFontSize": ""
+    }
+  },
+  "openfiles": [
+    "D:\\Perl_editor\\LICENCE",
+    "D:\\Perl_editor\\trial.py",
+    "D:\\Perl_editor\\project.toml",
+    "D:\\Perl_editor\\src\\main.py"
+  ],
+  "openMainFolder": "D:/Perl_editor"
+}

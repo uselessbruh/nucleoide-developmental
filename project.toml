@@ -1,0 +1,15 @@
+[project]
+name = "Perl_editor"
+version = "0.1.0"
+description = ""
+main_script = "./src/main.py"
+
+[packages]
+PyQt5 = "5.15.11"
+PyQt6 = "6.8.1"
+QScintilla = "2.14.1"
+
+[scripts]
+upgrade-pip = "python -m pip install --upgrade pip"
+
+

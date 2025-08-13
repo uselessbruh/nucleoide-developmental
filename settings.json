@@ -1,0 +1,8 @@
+{
+    "theme": "dark",
+    "themeColors": {
+        "sideBar": "#1e1e1e",
+        "editor": "#1e1e1e",
+        "text": "#ffffff"
+    }
+}

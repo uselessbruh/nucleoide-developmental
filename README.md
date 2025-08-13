@@ -1,6 +1,6 @@
 # Perl Editor - Advanced Code Editor with AI Integration
 
-![Perl Editor Logo](src/icons/logo.png)
+<img src="src/icons/logo.png" alt="Perl Editor Logo" width="200"/>
 
 ## Overview
 

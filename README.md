@@ -50,19 +50,36 @@ Perl Editor is a sophisticated, feature-rich code editor built with Python and P
 ### Quick Start
 1. Clone this repository
 2. Install dependencies: `pip install -r requirements.txt` (if available) or install packages from `project.toml`
-3. Run the application: `python src/main.py`
+3. **Download AI Model**: Download `Phi-3-mini-4k-instruct-q4.gguf` and place it in the `backend/` folder (see Backend AI Support section)
+4. Run the backend: `cd backend && python app.py`
+5. Run the main application: `python src/main.py`
 
 ## 🔧 Backend AI Support
 
-**Note**: The `backend/` folder contains the AI server components that power the intelligent coding assistant. This backend is included in the releases and provides the core AI functionality for the IDE.
+**Note**: The `backend/` folder contains the AI server components that power the intelligent coding assistant. The backend code is included in this repository, but you need to download a compatible AI model separately.
+
+### Model Download Required
+🔽 **You need to download an AI model to use the coding assistant:**
+
+**Recommended Model (Lightweight & Efficient):**
+- **Model**: Phi-3-mini-4k-instruct (GGUF format)
+- **Size**: ~2.3GB (quantized)
+- **Download from**: 
+  - Hugging Face: `microsoft/Phi-3-mini-4k-instruct-gguf`
+  - Or any compatible GGUF model repository
+- **File to download**: `Phi-3-mini-4k-instruct-q4.gguf` (Q4 quantization recommended)
+- **Place in**: `backend/Phi-3-mini-4k-instruct-q4.gguf`
+
+**Alternative Models:**
+You can use any compatible GGUF model, but update the model path in `backend/app.py` accordingly.
 
 ### Backend Features
 - Local AI server for coding assistance
-- Phi-3-mini-4k-instruct model integration
+- GGUF model support for efficient inference
 - Real-time response processing
 - Secure local processing (no data sent to external servers)
 
-The backend runs on `http://192.168.1.12:6000` by default and provides REST API endpoints for the AI chat functionality.
+The backend runs on `http://localhost:6000` by default and provides REST API endpoints for the AI chat functionality.
 
 ## 📋 Configuration
 
